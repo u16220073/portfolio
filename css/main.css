@@ -1,4 +1,33 @@
-.section {
+.container-fluid {
+  padding-top: 1em;
   background-color: #272727;
+}
+
+.container-fluid .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+}
+
+.container-fluid .navbar .logo {
+  padding: .5em;
+}
+
+.container-fluid .navbar-item img {
+  background-color: #d6d6d6;
+  border-radius: 50%;
+  width: 3em;
+  max-height: 5em;
+}
+
+.container-fluid .section {
+  background-color: #272727;
+}
+
+.container-fluid .section .typography-header p {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #d6d6d6;
 }
 /*# sourceMappingURL=main.css.map */
